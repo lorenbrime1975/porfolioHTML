@@ -1,0 +1,41 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: orange;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+}
+.logo{
+    display: flex;
+    &_imag{
+        width: 100px;
+        
+    }
+}
+.nav{
+    &-link{
+        padding: 10px;
+        text-decoration: none;
+    }
+}
+@media (min-width: 1200px ){
+    .logo{
+        display: flex;
+        &_imag{
+            width: 150px;
+            
+        }
+        &titulo{
+            display: flex;
+        }
+    }
+    .nav{
+        &-link{
+            padding: 10px;
+            text-decoration: none;
+            font-size: 30px;
+        }
+    }
+}
